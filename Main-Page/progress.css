@@ -1,0 +1,33 @@
+#progress-label, #school{
+        
+    text-align: center;
+   
+}
+
+.progress-container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.progress-bar {
+  background-image: url('./img/pic\ 10.webp'); /* Replace 'path/to/your-image.jpg' with the actual path to your image */
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+   
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 20px;
+    width: 0;
+
+    background-image: url('./img/pic5.webp'); /* Replace 'path/to/your-image.jpg' with the actual path to your image */
+    transition: width 0.3s ease;
+    
+}
+
+.progress-label {
+    margin-top: 10px;
+    font-size: 18px;
+}
