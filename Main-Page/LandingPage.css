@@ -1387,7 +1387,7 @@ width: 30%;
 }
 
 .success-button-container {
-  display: flex;
+  display: inline;
   margin-top: 0.875rem;
   margin-bottom: -0.375rem;
   margin-left: -0.5rem;
@@ -1451,11 +1451,12 @@ button#PTAinfo.showSignUp.btn:active{
  transform: scale(0.93);
 }
 .subjectspecialisation{
-  color: rgb(126, 9, 97);
+  color: rgb(96, 16, 35);
   backdrop-filter: blur(10px);
   font-family: georgia;
   border-radius: 5px;
   padding: 10px;
+  font-size: 20px;
 }
 .numbering{
 font-size:29px;
@@ -2399,12 +2400,7 @@ margin-top: 5px;
 
   
 }
-.success-button-container {
-  grid-template-columns: repeat(2,1fr);
-  width: 100%;
 
-
-}
 .cbctitle{
  font-size: 20px;
  width: 80%;
