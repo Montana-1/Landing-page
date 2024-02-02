@@ -2,7 +2,7 @@
 const defaultData = [
   {
     Entry:"👁️01",
-    StudentFullName: "Abeka",
+    StudentFullName: "Tom",
     AdmissionNo: "23/001",
     IndexNo:"39741064001",
     AssessmentNumber: "Not a CBC Student",

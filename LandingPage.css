@@ -262,6 +262,10 @@ a{
   top:-150px;
   right: 20px;
 }
+h3{
+  color: rgb(225, 225, 225);
+  font-family: georgia;
+}
 
 .container {
   position: absolute;

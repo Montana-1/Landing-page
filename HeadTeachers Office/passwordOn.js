@@ -11,7 +11,7 @@ const defaultData = [
       AssessmentNumber: "Not a CBC Student",
       Gender: "Male",
       AdmissionClass: "Class One",
-      ClassOf:"2023",
+      TheYear:"2023",
       UPI: "A00090090",
       PhoneNumber: "254909000999",
       OfficialEmail: "Allanohn@example.com",
@@ -28,8 +28,10 @@ const defaultData = [
     {
       StudentFullName: "Abondi Obadha",
       AdmissionNo: "kssko",
+      IndexNo:"39741064002",
       Gender: "Female",
       AdmissionClass: "ppppp",
+      TheYear:"2023",
       AssessmentNumber: "B000156",
       UPI: "B00098",
       PhoneNumber: "0922",
@@ -67,7 +69,7 @@ const defaultData = [
     document.querySelector('input[name="IndexNo"]').value = data.IndexNo || '';
     document.querySelector('select[name="Gender"]').value = data.Gender || '';
     document.querySelector('input[name="Admission Class"]').value = data.AdmissionClass || '';
-    document.querySelector('input[name="ClassOf"]').value = data.ClassOf || '';
+    document.querySelector('input[name="TheYear"]').value = data.TheYear || '';
     document.getElementById('Assessment Number').value = data.AssessmentNumber || '';
     document.querySelector('input[name="U.P.I"]').value = data.UPI || '';
     document.querySelector('input[type="tel"]').value = data.PhoneNumber || '';
