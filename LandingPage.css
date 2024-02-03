@@ -263,8 +263,9 @@ a{
   right: 20px;
 }
 h3{
-  color: rgb(225, 225, 225);
+  color: rgb(115, 93, 26);
   font-family: georgia;
+ 
 }
 
 .container {
@@ -2614,6 +2615,10 @@ margin-top: 60px;
     max-width: 100%;
     margin-left: 30px;
     margin-right: 20px;
+  }
+  h3{
+  text-overflow: ellipsis;
+  font-size: 15px;
   }
 }
 
