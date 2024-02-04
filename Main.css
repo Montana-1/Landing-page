@@ -2627,6 +2627,9 @@ margin-top: 60px;
   }
   main{
     height: 45px;
+    border-radius:8px;
+    border: 2px solid lavender;
+    width: 100%;
   }
 }
 
