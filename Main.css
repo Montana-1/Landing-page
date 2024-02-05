@@ -13,6 +13,20 @@ video{
   top:40px;
   z-index: 100;
 }
+img:hover{
+  transform: scale(1.1);
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+img:active{
+  transform: scale(0.8);
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+.img2{
+  width: 70%;
+  border-radius: 15px;
+float: right;
+margin-right: 10%;
+}
 #left-formOneEndbtns{
   display: grid;
   grid-template-columns: repeat(3,1fr);
