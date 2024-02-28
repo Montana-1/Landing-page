@@ -16,6 +16,8 @@ video{
 img:hover{
   transform: scale(1.1);
   transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  border: 3px solid;
+  border-color: rgb(255, 22, 170);
 }
 img:active{
   transform: scale(0.8);
@@ -294,7 +296,7 @@ h3{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./img/new1.jpg);
+  background-image: url(./img/new1.png);
 
 }
 .sections{
@@ -348,7 +350,7 @@ background-clip: text;
   text-align: center;
   background: linear-gradient(45deg,#8c9393,#3d098d,#d11d56,#181ecd);
   /* background: linear-gradient(45deg,#0de5da,#5b0e43,#c2b41b,#000000); */
-  background-image: url(./img/new1.jpg);
+  background-image: url(./img/new1.png);
   background-size: cover;
  
 }
